@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;}
+
+nav {
+    margin: 0 auto;
+}
+
+nav ul {
+    gap: 120px;
+}
+
+nav ul li {
+    font-size: 30px;
+    height: 45px; 
+    list-style-type: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+  
+.links {
+    margin-left: 20px;
+}
+
+.links img {
+    width: 32px;
+    margin: 40px 20px;
+    cursor: pointer;
+}
+  
+@media (max-width: 768px) {
+    header {
+     margin-top: 30px !important;
+     text-align: center;
+    }
+
+    nav ul {
+        gap: 20px;
+        padding-left: 0;
+    }
+    
+
+    .links {
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #0F1624;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-theme {
+  background-color: #0F1624;
+  color: #FFFFFF;
+}
+
+body.light-theme {
+  background-color: #FFFFFF;
+  color: #0F1624;
+}
+
+body.light-theme .links img {
+    filter: invert(100%);
+}
+
+
+/* SOCIAL MEDIA IMG THEME*/
+.links img {
+  transition: filter 0.3s ease;
+}
+
+.links img {
+  transition: filter 0.3s ease;
+}
+
+/* BOX SHADOW CARDS THEME*/
+.card.dark-theme {
+  box-shadow: 0px 0px 7px 4px rgba(255, 255, 255, 0.8);
+}
+
+.card.light-theme {
+  box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.4);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* MAIN COLOR */
+.the-background {
+  background-color: #0F1624;
+}
+
+
+.the-color {
+color: #FFFFFF;
+}
+
+.grey-color {
+  color: #BCBCBC;
+}
+
+
+
+
+.form-input::placeholder {
+  color: #292f36;
+  opacity: 1;
+}
+
+
+/* THYPOGRAPHY */
+h1,h2,h3,h4,h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2.5px;
+}
+
+
+p{
+  line-height: 150%;
+}
+
+/* Grid */
+.container{
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  position: relative;
+}
+
+
+.al-center {
+  align-items: center;
+}
+
+
+
+.al-end {
+  align-items: end;
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+
+.fd-column {
+  flex-direction: column;
+}
+
+
+.jc-center {
+  justify-content: center;
+}
+
+
+.jc-end {
+  justify-content: end;
+}
+
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+ 
+  .mobile-fd-column {
+    flex-direction: column;
+  }
+}

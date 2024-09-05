@@ -1,0 +1,64 @@
+.btn {
+    background: linear-gradient(90deg,#945DD6, #6978D1, #13ADC7);
+    color:#ffffff;
+    font-family: "Poppins", sans-serif;
+    border-radius: 83px;
+    border: none;
+    cursor: pointer;
+    transition: width 2s,height 2s, font-size 2s,font-weight 2s,transform 2s;
+}
+
+.btn.learnMore {
+    width: 280px;
+    height: 80px;
+    font-size: 28px;
+}
+
+.btn.learnMore:hover {
+    background: linear-gradient(90deg, #13ADC7, #6978D1, #945DD6);
+    font-weight: 600;
+    font-size: 29px;
+    width: 285px;
+    height: 85px;
+    transform: translateY(-5px);
+}
+
+.btn.clickHere {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.btn.clickHere:hover {
+    background: linear-gradient(90deg, #13ADC7, #6978D1, #945DD6);
+    font-weight: 600;
+    font-size: 22px;
+    width: 205px;
+    height: 65px;
+    transform: translateY(-5px);
+}
+
+.btn.theme {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.btn.theme:hover {
+    background: linear-gradient(90deg, #13ADC7, #6978D1, #945DD6);
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 50px;
+    transform: translateY(-5px);
+}
+
+@media (max-width: 1120px) {
+
+    .btn.clickHere {
+        margin-left: 0;
+    }
+
+}

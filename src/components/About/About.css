@@ -1,0 +1,15 @@
+.about h1 {
+    font-size: 64px;
+    line-height: 96px;
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 100px 200px;
+
+}
+
+@media (max-width: 768px) {
+    .about h1{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
