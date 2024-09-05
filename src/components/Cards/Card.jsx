@@ -1,7 +1,7 @@
 import './Card.css';
 
 // ASSETS
-import arqdnc from '../../assets/ProjectsImg/arqdnc.jpg';
+import arqdnc from '../../assets/ProjectsImg/Arqdnc.jpg';
 import weather from '../../assets/ProjectsImg/weather.jpg';
 import ccxp from '../../assets/ProjectsImg/ccxp.jpg';
 import resumednc from '../../assets/ProjectsImg/resume-dnc.jpg';
