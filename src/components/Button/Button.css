@@ -61,4 +61,12 @@
         margin-left: 0;
     }
 
+    .btn.theme {
+        font-size: 14px;
+    }
+    
+    .btn.theme:hover {
+        font-size: 16px;
+    }
+
 }
